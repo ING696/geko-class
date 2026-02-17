@@ -1,0 +1,14 @@
+div {
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+}
+.cube {
+    background: darkslategrey;
+}
+.box {
+    background: gray;
+}
+#box1 {
+    border: 5px solid #000;
+}
