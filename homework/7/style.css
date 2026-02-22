@@ -1,0 +1,58 @@
+.main-title {
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-title {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
+.text-one {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.text-two {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  word-spacing: 6px;
+}
+.text-three {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  text-align: right;
+}
+.main-link {
+  font-size: 18px;
+  font-family: "Verdana", sans-serif;
+  text-decoration: dotted underline;
+  font-style: italic;
+}
+.box {
+  width: 100%;
+  height: 150px;
+}
+.pre-text {
+  white-space: pre;
+}
+.box-one {
+  background-color: lightblue;
+}
+.box-two {
+  background-image: url("./cats.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box-three {
+  background-image: url("./cats.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding: 20px;
+}
