@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: #62306d;
+  min-height: 100vh;
+}
+div {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background: #f7ec7d;
+}
+div:nth-child(2) {
+  border-radius: 50px 50px 0 0;
+  transform: translateY(-100%);
+
+}
+div:nth-child(1),
+div:nth-child(3) {
+  border-radius: 0 0 50px 50px;
+}

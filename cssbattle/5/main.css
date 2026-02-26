@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background: #0b2429;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  display: flex;
+  width: 120px;
+  height: 120px;
+}
+div:nth-child(1) {
+  display: flex;
+  background: #f3ac3c;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+}
+div:nth-child(3) {
+  background: #f3ac3c;
+  border-radius: 50% 0 50% 50%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+div:nth-child(2) {
+  position: absolute;
+  background: #998235;
+  border-radius: 50% 0 50% 50%;
+}
