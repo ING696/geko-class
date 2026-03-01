@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0D1335;
+    min-height: 100vh;
+  }
+  .circle {
+    width: 40px;
+    height: 40px;
+    background: #73C6EA;
+    border-radius: 50%;
+  }
+.orbit {
+  width: 250px;
+  height: 110px;
+  border: 10px solid;
+  border-radius: 50%;
+  position: absolute;
+  }
+.white {
+  border-color: #f1f1e6;
+}
+.green {
+  border-color: #4fa27b;
+  transform:rotate(-60deg);
+}
+.orange {
+  border-color: #DC6638;
+  transform: rotate(60deg)
+}
